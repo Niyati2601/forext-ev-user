@@ -30,7 +30,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve static files
-app.use('/', express.static(path.join(__dirname, 'ForextEv 2')));
+app.use('/', express.static(path.join(__dirname, 'ForextEv')));
 
 // Route to handle form submission
 app.post('/submit-form', async (req, res) => {
