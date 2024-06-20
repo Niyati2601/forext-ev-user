@@ -13,7 +13,10 @@
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
+
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="src/assets/icon/logo.svg" />
     <title>E-Scooter</title>
@@ -26,7 +29,7 @@
       <div class="nav-link nav-mobile">
         <a href="#Home"><li>Home</li></a>
         <a href="#information"><li>Products</li></a>
-        <a href="#information"><li>About Us</li></a>
+        <a href="#about"><li>About Us</li></a>
         <a href="#gallery"><li>Gallery</li></a>
       </div>
       <div class="nav-ekstra">
@@ -47,7 +50,7 @@
           <div class="buy">
             <div class="arrow-btn">
               <i class="bx bx-right-arrow-alt"></i>
-              <a href="#contact">Buy Now</a>
+              <p>Buy Now</p>
             </div>
           </div>
         </div>
@@ -200,8 +203,8 @@
               />
             </div>
             <!-- Control buttons -->
-            <button class="btn btn-next">></button>
-            <button class="btn btn-prev"><</button>
+            <button class="btn btn-next">&gt;</button>
+            <button class="btn btn-prev"> &lt;</button>
           </div>
         </div>
         <div class="about__data">
@@ -376,7 +379,7 @@
           </div>
           <div class="right-gallery">
             <div class="card-right1" data-aos="fade-up" data-aos-delay="100">
-              <h2></h2>
+             
               <img src="src/assets/image/forextev_images/16.jpg" alt="" />
             </div>
             <div class="card-right2" data-aos="fade-up" data-aos-delay="300">
@@ -421,102 +424,136 @@
         </div>
       </div>
     </section>
-
     <section id="contact">
       <div class="container-contact">
         <div class="contact-title" data-aos="fade-up">
-          <h1>Contact us</h1>
+          <h1>Our Models</h1>
         </div>
-    
-        <section class="contact-us-wrapper" id="contact-us">
-          <div class="contact-us">
-            <div class="contact-form">
-              <form id="contactForm">
-                <div class="form-group">
-                  <label for="name">Full Name</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
-                <div class="form-group">
-                  <label for="phone">Phone Number</label>
-                  <input type="tel" id="phone" name="phone" required />
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
-                <div class="form-group">
-                  <label for="location">Location</label>
-                  <input type="text" id="location" name="location" required />
-                </div>
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
-              </form>
-            </div>
-            <div class="contact-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14678.124689264043!2d72.540331!3d23.1142521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8340ebe5d7cb%3A0x4b3ffb517276bef6!2sGanesh%20Glory%2011!5e0!3m2!1sen!2sin!4v1717338565750!5m2!1sen!2sin"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </section>
+
+       
       </div>
     </section>
-    <div id="toast" class="toast"></div>
+
+    <section class="product-comparison">
+      
+      <div class="product">
+          <img src="hero.png" alt="Product 1">
+          <ul>
+              <li>Battery : 60v/28 AH</li>
+              <li>VRLA Battery</li>
+              <li>Range : 60km</li>
+              <li>Color option : Black and Grey</li>
+          </ul>
+      </div>
+      <div class="product">
+          <img src="red.png" alt="Product 2">
+          <ul>
+            <li>Battery : 48v/30 AH</li>
+            <li>Litihum  Ion Battery</li>
+            <li>Range : 70km</li>
+            <li>Color option : Black and Grey</li>
+        </ul>
+      </div>
+      <div class="product">
+          <img src="src/assets/image/forextev_images/20-Photoroom.png" alt="Product 3">
+          <ul>
+            <li>Battery : 48/25 AH</li>
+            <li>Litihum ion Battery</li>
+            <li>Range : 60km</li>
+            <li>Color option : Black and Grey</li>
+            
+        </ul>
+      </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container-contact">
+      <div class="contact-title" data-aos="fade-up">
+        <h1>Contact us</h1>
+      </div>
+  
+      <section class="contact-us-wrapper" id="contact-us">
+        <div class="contact-us">
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+            <div id="formMessage"></div>
+          </div>
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14678.124689264043!2d72.540331!3d23.1142521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8340ebe5d7cb%3A0x4b3ffb517276bef6!2sGanesh%20Glory%2011!5e0!3m2!1sen!2sin!4v1717338565750!5m2!1sen!2sin" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  
+ 
+  
 
     <footer>
       <div class="container-footer">
-        <div class="foot-content">
-          <div class="img-footer" data-aos="fade-right" data-aos-delay="500">
-            <img
-              src="src/assets/image/forextev_images/black_bike_footer.png"
-              alt=""
-            />
+        <div class="footer-sections">
+          <div class="section about-us">
+            <h5>About Us</h5>
+            <p>Welcome to Forextev, where we revolutionize urban mobility with eco-friendly, advanced electric vehicles. Join us in creating a cleaner, greener future, one ride at a time.</p>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+              <a href="#"><i class="fa fa-vimeo"></i></a>
+            </div>
           </div>
-          <div class="foot-links">
-            <div class="about-foot" data-aos="fade-left" data-aos-delay="50">
-              <h5>About</h5>
-              <ul>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Careers</a></li>
-              </ul>
-            </div>
-            <div class="resources" data-aos="fade-left" data-aos-delay="150">
-              <h5>Resources</h5>
-              <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Application</a></li>
-                <li><a href="#">FQA Features</a></li>
-              </ul>
-            </div>
-            <div class="legals" data-aos="fade-left" data-aos-delay="200">
-              <h5>Legals</h5>
-              <ul>
-                <li><a href="#">Copyright Privacy</a></li>
-                <li><a href="#">Policy Disclaimer</a></li>
-                <li><a href="#">Terms</a></li>
-              </ul>
-              <div class="sosmed">
-                <i class="bx bxl-facebook-circle"></i>
-                <i class="bx bxl-twitter"></i>
-                <i class="bx bxl-instagram-alt"></i>
-              </div>
-            </div>
+          <div class="section quick-links">
+            <h5>Quick Links</h5>
+            <ul>
+              <a href="#Home"><li>Home</li></a>
+        <a href="#information"><li>Products</li></a>
+        <a href="#about"><li>About Us</li></a>
+        <a href="#gallery"><li>Gallery</li></a>
+            </ul>
+          </div>
+          <div class="section head-office">
+            <h5>Head Office</h5>
+            <address>
+              Shop no-12, Stavan parishray,<br>
+              Behind- Vodaphone tower , Nr-shankus party plot Gota , S.G.highway, Ahmedabad - 382481<br>
+              Phone: +91 8485942426<br>
+              Email: <a href="mailto:surajpatel@forextev.com" style="color: white;">surajpatel@forsextev.com</a><br>
+              Office Time: 10 AM to 7 PM
+            </address>
+          </div>
+          <div class="section construction-tip">
+            <h5>Contact US</h5>
+            <p>Forextev pioneers sustainable urban transport with cutting-edge electric vehicles, combining innovation, efficiency, and environmental responsibility.
+            </p>
           </div>
         </div>
-        <div class="credit">© Copyright 2021. All rights reserved.</div>
+        <div class="credit">© Copyright 2024 ForextEv. All rights reserved.</div>
       </div>
     </footer>
+    
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         let currentSlide = 1;
@@ -595,74 +632,35 @@
         setInterval(nextSlide, slideInterval);
       });
     </script>
-    <script>
-      document
-        .getElementById("contactForm")
-        .addEventListener("submit", async function (event) {
-          event.preventDefault();
+   
+  <script>
+    const center = document.querySelector('.red-img');
+const bg = document.querySelector('.img-center');
+const red = document.querySelector('.img-red');
+const black = document.querySelector('.img-black');
+const blue = document.querySelector('.img-blue');
+const yellow = document.querySelector('.img-yellow');
 
-          const formData = {
-            name: document.getElementById("name").value,
-            phone: document.getElementById("phone").value,
-            email: document.getElementById("email").value,
-            location: document.getElementById("location").value,
-            message: document.getElementById("message").value,
-          };
+red.addEventListener('click', function(){
+  center.src= 'red.png';
+  bg.style.background='linear-gradient(to right, #5B6568, #5B6568)';
+});
 
-          try {
-            const response = await fetch(
-              "https://forext-ev-user.onrender.com/submit-form",
-              {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify(formData),
-              }
-            );
+black.addEventListener('click', function(){
+  center.src='hero.png';
+  bg.style.background='linear-gradient(to right, #000000, #434343)';
+});
 
-            const result = await response.json();
-            showToast(result.message);
-          } catch (error) {
-            showToast("Error submitting form");
-          }
-        });
-      function showToast(message) {
-        const toast = document.getElementById("toast");
-        toast.textContent = message;
-        toast.className = "toast show";
-        setTimeout(() => {
-          toast.className = toast.className.replace("show", "");
-        }, 3000);
-      }
-    </script>
-    <script>
-      const center = document.querySelector(".red-img");
-      const bg = document.querySelector(".img-center");
-      const red = document.querySelector(".img-red");
-      const black = document.querySelector(".img-black");
-      const blue = document.querySelector(".img-blue");
-      const yellow = document.querySelector(".img-yellow");
+blue.addEventListener('click', function(){
+  center.src='blue.png';
+  bg.style.background='linear-gradient(to right, #2193b0, #6dd5ed)';
+});
 
-      red.addEventListener("click", function () {
-        center.src = "red.png";
-        bg.style.background = "linear-gradient(to right, #5B6568, #5B6568)";
-      });
+yellow.addEventListener('click', function(){
+  center.src='yellow.png';
+  bg.style.background='linear-gradient(to right, #cac531, #f3f9a7)'
+});
 
-      black.addEventListener("click", function () {
-        center.src = "hero.png";
-        bg.style.background = "linear-gradient(to right, #000000, #434343)";
-      });
-
-      blue.addEventListener("click", function () {
-        center.src = "blue.png";
-        bg.style.background = "linear-gradient(to right, #2193b0, #6dd5ed)";
-      });
-
-      yellow.addEventListener("click", function () {
-        center.src = "yellow.png";
-        bg.style.background = "linear-gradient(to right, #cac531, #f3f9a7)";
-      });
     </script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
